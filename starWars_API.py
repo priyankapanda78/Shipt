@@ -17,7 +17,7 @@ class starwars(unittest.TestCase):
                     self.characters = requests.get(self.response['results'][0]['characters'][i])
                     self.name = self.characters.json()
                     charName.append(self.name['name']) #All the characters for film stored in charName
-        self.assertIn("Obi-Wan Kenobi",charName)      #Validating for movie 'A New Hope', character 'Obi-Wan Kenobi' is in the list charName.
+        self.assertIn("Obi-Wan Kenobi",charName) #Validating for movie 'A New Hope', character 'Obi-Wan Kenobi' is in charName.
 
 #Q2 Assert that the Enterprise is a starship (yes, this should fail)
     def testEnterprise(self):
