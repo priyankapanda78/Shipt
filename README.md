@@ -105,7 +105,7 @@ To run the file: python UI_automation.py /path/to/Chromedriver
 
 **API Automation**
 
-To run the file: pytest starWars.py
+To run the file: pytest starWars_API.py
 
 **Automation Assessment Follow Up Questions:**
 
